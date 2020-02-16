@@ -9,11 +9,13 @@ var button = document.getElementById("button");
 // console.log(color2);
 
 ``
-color1.addEventListener("input", setGradient());
+color1.addEventListener("input", setGradient);
 
-color2.addEventListener("input", setGradient());
+color2.addEventListener("input", setGradient);
 
 button.addEventListener("click", randomColor);
+
+setGradient();
 
 function setGradient() {
 	body.style.background="linear-gradient(to right," + color1.value + "," + color2.value + ")";

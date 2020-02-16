@@ -1,5 +1,5 @@
 body {
-	font: 'Raleway', sans-serif;
+	font-family: monospace;
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: uppercase;
@@ -9,18 +9,19 @@ body {
 }
 
 h1 {
-    font: 600 3.5em 'Raleway', sans-serif;
+    /*font: 600 3.5em 'Raleway', sans-serif;*/
     color: rgba(0,0,0,.8);
     text-align: center;
     text-transform: uppercase;
     letter-spacing: .5em;
-    width: 100%;
+    margin: 4em 35em;
     background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-
+    /*font-weight: 7;*/
+    /*opacity: 0.5;*/
 }
 
 h3 {
-	font: 900 1em 'Raleway', sans-serif;
+	/*font: 900 1em 'Raleway', sans-serif;*/
     color: rgba(0,0,0,.5);
     text-align: center;
     text-transform: none;
@@ -30,7 +31,7 @@ h3 {
 
 #button {
     padding: 15px;
-    margin-top: 20px;
+    margin-top: 10%;
     font-weight: 900;
     --background: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
     color: #000000;

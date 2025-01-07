@@ -1,2 +1,2 @@
 # background-generator
-Gradient background generator in javascript
+Simple gradient background generator using javascript.
